@@ -8,8 +8,8 @@ a { color: rgba(0, 102, 204, 1); }
 a:hover { Color:rgba(0,51,153,1); }
 
 /* GLOBAL TYPOGRAPHY */
-body {
+body { 
     font-family:Arial, Helvetica, sans-serif;
     font-size: 88.75%; /* 14px /*
     line height: 1.4;
-}
+    }
