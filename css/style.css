@@ -18,8 +18,8 @@ body {
 /* SITE STRUCTURE */
 
 header {
-    background-color: rgba(0,102,204, 1);
-    color: rgba(0,0,0, .8); 
+    background-color: rgba(255, 182, 237, 0.966);
+    color: rgba(0, 0, 0, 0.8); 
     padding: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -27,12 +27,12 @@ header {
 }
 
 header a {
-    color: rgba(255,255,255, .8);
+    color: rgb(20, 20, 20);
     text-decoration: none;   
 }
 
 header a:hover {
-    color: rgba(255,255,255, .1);
+    color: rgb(0, 0, 0);
 }
 
 
@@ -62,9 +62,9 @@ main {
 
 /* HERO SECTION */
 .hero {
-    background-color: rgba(255, 162, 232, 0.966);
+    background-color: rgba(255, 182, 237, 0.966);
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 6em 1em;
 }
 
