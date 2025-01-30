@@ -57,12 +57,12 @@ header a:hover {
 
 /* MAIN */
 main {
-    background: rgba(0,0,0, .05);
+    background: rgb(255, 255, 255);
 }
 
 /* HERO SECTION */
 .hero {
-    background-color: rgba(0, 102, 204, 1);
+    background-color: rgba(255, 162, 232, 0.966);
     text-align: center;
     color: white;
     padding: 6em 1em;
