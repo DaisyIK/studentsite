@@ -19,7 +19,7 @@ body {
 
 header {
     background-color: rgba(255, 182, 237, 0.966);
-    color: rgba(0, 0, 0, 0.8); 
+    color: rgba(255, 255, 255, 0.8); 
     padding: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -27,12 +27,12 @@ header {
 }
 
 header a {
-    color: rgb(20, 20, 20);
+    color: #ffffff;
     text-decoration: none;   
 }
 
 header a:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 
@@ -64,7 +64,7 @@ main {
 .hero {
     background-color: rgba(255, 182, 237, 0.966);
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 6em 1em;
 }
 
@@ -99,7 +99,7 @@ main {
 
 /* FOOTER */
 footer {
-    border-top: 1px solid rgba(0,0,0,.05);
+    border-top: 1px solid rgb(255, 255, 255);
     padding: 1em;
 }
 
@@ -156,11 +156,23 @@ aside {
     }
 }
 
-/* STYLING FOR SUB PAGES */
+/* CUSTOM STYLING FOR SPECIFIC & SUB PAGES */
 .page-sub .hero {
     background-color:rgba(0, 0, 0, 0.1);
     color: rgba(0, 0, 0, 0.8);
 }
+
+.page-home .hero{
+    background-image: url('https://picsum.photos/id/891/1600/800');
+    background-position: center top;
+    background-size: cover;
+    padding: 30em 1em 20vh 1em;
+}
+
+.page-home header {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
 
 /* COURSE WORK SECTION */
 .coursework {
