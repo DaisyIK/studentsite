@@ -97,7 +97,6 @@ main {
     text-align: center;
 }
 
-
 /* FOOTER */
 footer {
     border-top: 1px solid rgba(0,0,0,.05);
@@ -124,6 +123,18 @@ footer {
     margin: 0 auto;
 }
 
+.two-cal-sidebar {
+    display: grid;
+}
+
+aside {
+    border: 1px solid green;
+}
+
+.primary {
+    border: 1px solid blue
+}
+
 section {
     padding: 3em 1em;
 }
@@ -145,13 +156,13 @@ aside {
     }
 }
 
-/* SUB PAGES */
+/* STYLING FOR SUB PAGES */
 .page-sub .hero {
     background-color:rgba(0, 0, 0, 0.1);
     color: rgba(0, 0, 0, 0.8);
 }
 
-/* COURSE PAGES WITH MULTIPLE PROJECT LISTS */
+/* COURSE WORK SECTION */
 .coursework {
     padding: 3em 1em;
     display: flex;
@@ -159,7 +170,7 @@ aside {
     flex-wrap: wrap;
 }
 
-.project {
+.projects {
     margin: 2em;
 }
 
